@@ -1,0 +1,16 @@
+manifest-version: "1.0"
+product-group: com.palantir
+product-name: external-secrets-store-aws
+product-version: 0.0.1
+product-type: helm-chart.v1
+extensions:
+  helm-chart:
+    helm-chart-name: external-secrets-store-aws
+    helm-chart-version: 0.0.1
+    helm-repository-url: https://ucabvas.github.io/external-secrets-store-aws/
+  product-dependencies:
+   - product-group: io.external-secrets
+     product-name: external-secrets
+     minimum-version: 0.10.0
+     maximum-version: 0.x.x
+     optional: false

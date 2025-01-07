@@ -1,0 +1,11 @@
+# Default values for terraform-aws-vv-rds-helm.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# This is to override the chart name.
+nameOverride: ""
+fullnameOverride: ""
+
+environment: "dev"
+aws:
+  region: us-east-1

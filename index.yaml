@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  external-secrets-store-aws:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-07T14:44:27.768186818Z"
+    description: A Helm chart for Kubernetes
+    digest: 58649d982956b611c074a82e0242cd68d88da2fa9c1697bd3f1304d4ad03e907
+    name: external-secrets-store-aws
+    type: application
+    urls:
+    - https://github.com/ucabvas/external-secrets-store-aws/releases/download/external-secrets-store-aws-0.0.3/external-secrets-store-aws-0.0.3.tgz
+    version: 0.0.3
+generated: "2025-01-07T14:44:27.768213016Z"
